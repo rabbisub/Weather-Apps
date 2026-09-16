@@ -11,6 +11,11 @@ const LocationModal = ({ onClose }) => {
     console.log(value);
     }
 
+  
+
+
+
+
     const handleCurrentLocation = ()=>{
         navigator.geolocation.getCurrentPosition((positions)=>{
             const {latitude, longitude} = positions.coords;
